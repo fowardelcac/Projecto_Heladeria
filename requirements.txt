@@ -1,4 +1,0 @@
-pandas
-streamlit
-option_menu
-funciones
