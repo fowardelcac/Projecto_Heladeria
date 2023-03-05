@@ -220,3 +220,4 @@ yapf==0.32.0
 yfinance==0.2.12
 zipp==3.15.0
 streamlit_option_menu
+setup.sh
