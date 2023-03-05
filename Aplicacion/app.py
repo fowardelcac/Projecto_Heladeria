@@ -5,6 +5,7 @@ from streamlit_option_menu import option_menu
 
 @st.cache_data
 def load_data():
+    url = 'https://raw.githubusercontent.com/fowardelcac/Projecto_Heladeria/blob/main/VentasTabla.xlsx'
     df = pd.read_excel('D:\DatosD\Chuii\Pelado\Programa\VentasTabla.xlsx')
     df.dropna(inplace=True)
     df = df.drop(['Unnamed: 0'], axis=1) 
